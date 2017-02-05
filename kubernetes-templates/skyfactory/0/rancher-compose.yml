@@ -1,0 +1,15 @@
+.catalog:
+  name: Skyfactory
+  version: 1.0.0
+  questions:
+    - variable: PORT
+      default: 25566
+      label: Server Port
+      description: Port to expose the load balancer on
+      required: true
+      type: int
+    - variable: VOLUME
+      default: mc
+      label: Volume Name
+      required: true
+      type: string
