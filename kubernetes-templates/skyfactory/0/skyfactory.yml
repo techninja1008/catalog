@@ -58,7 +58,7 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: skyfactory-2
+  name: skyfactory
 spec:
   type: LoadBalancer
   selector:
